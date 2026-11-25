@@ -1,0 +1,38 @@
+# Dependências Node.js (instaladas via npm install)
+node_modules/
+**/node_modules/
+
+# Artefatos de compilação e cache (gerados via npm run build / start)
+dist/
+**/dist/
+out-tsc/
+**/out-tsc/
+.angular/
+**/.angular/
+*.tsbuildinfo
+
+# Variáveis de ambiente locais (preserva .env.example no repositório)
+.env
+.env.local
+.env.*.local
+!**/.env.example
+
+# Logs e relatórios de cobertura de testes
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+coverage/
+**/coverage/
+
+# Arquivos temporários de Sistema Operacional e IDEs
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+*.swp
+*.swo
+
+# Materiais pesados de consulta / PDFs de aula (preserva todo o código, assets e script.sql)
+Conteudos_Materiais_Dados_Fornecidos/
